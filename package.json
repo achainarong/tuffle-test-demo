@@ -1,0 +1,20 @@
+{
+  "name": "truffle-smart-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "truffle test",
+    "migrate": "truffle migrate",
+    "build": "truffle compile"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Apiseg Chainarong",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.4",
+    "truffle-hdwallet-provider-privkey": "^0.3.0",
+    "web3": "^1.7.1"
+  }
+}
